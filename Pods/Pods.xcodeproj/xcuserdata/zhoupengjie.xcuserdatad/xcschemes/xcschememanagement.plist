@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SuperWeChat.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip-XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XLPagerTabStrip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4FD9595D30D88370E5396FDA14FDB99D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5EC8DB6F4FA56967564986CA7932AB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B79ECDAF08331B55730B065F4FD94675</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF126E252292E20568A32FD1A620FD4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C920452BB55721ACAB2923E9BF78C9D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

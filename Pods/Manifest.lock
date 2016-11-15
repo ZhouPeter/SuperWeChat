@@ -1,0 +1,18 @@
+PODS:
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SnapKit (3.0.2)
+  - XLPagerTabStrip (6.0.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SnapKit
+  - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  XLPagerTabStrip: c46e802a8dcac29edbcea573de8fe920e052455b
+
+COCOAPODS: 0.39.0
