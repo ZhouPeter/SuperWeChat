@@ -28,11 +28,12 @@ class TopImageButton: UIButton {
         let titleLabelWidth :CGFloat! = self.titleLabel?.intrinsicContentSize.width
         let titleLabelHeight:CGFloat!  = self.titleLabel?.intrinsicContentSize.height
         //文字距离上边框的距离增加imageView的高度，距离左边框减少imageView的宽度，距离下边框和右边框距离不变
-        //猜测水平居中后偏移量需要乘以2
-        self.titleEdgeInsets = UIEdgeInsets(top: (imageViewHeight/2 + titleLabelHeight/2)*2, left: -imageViewWidth, bottom: 0, right: 0)
+        //猜测垂直居中后偏移量需要乘以2
+        self.titleEdgeInsets = UIEdgeInsets(top: (imageViewHeight/2 + titleLabelHeight/2)*2 , left: -imageViewWidth, bottom: 0, right: 0)
        
         //图片距离右边框距离减少文字的宽度，其它不变
         self.imageEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: -titleLabelWidth)
+        self.contentEdgeInsets = UIEdgeInsets.zero
 
 
      }
