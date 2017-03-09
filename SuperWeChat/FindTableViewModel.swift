@@ -60,6 +60,7 @@ class FindTableViewModel: NSObject ,UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let friendsVC = FriendsViewController()
         tableView.selectRow(at: nil, animated: true, scrollPosition: .none)
+        friendsVC.hidesBottomBarWhenPushed = true
         self.target.controllerTarget.navigationController?.pushViewController(friendsVC, animated: true)
     
     }

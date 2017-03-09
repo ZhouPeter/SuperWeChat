@@ -14,6 +14,7 @@ extension String{
     
     func stringHeightWith(_ fontSize:Int,width:CGFloat)->CGFloat{
         let fontSizeFloat = CGFloat(fontSize)
+        
         let font = UIFont.systemFont(ofSize: fontSizeFloat)
         
         let size = CGSize(width: width,height: CGFloat.greatestFiniteMagnitude)
@@ -24,9 +25,7 @@ extension String{
         
         let attributes = [NSFontAttributeName:font, NSParagraphStyleAttributeName:paragraphStyle.copy()]
         
-        let text = self as NSString
-        
-        let rect = text.boundingRect(with: size, options:.usesLineFragmentOrigin, attributes: attributes, context:nil)
+        let rect = self.boundingRect(with: size, options:.usesLineFragmentOrigin, attributes: attributes, context:nil)
         
         return rect.size.height
         

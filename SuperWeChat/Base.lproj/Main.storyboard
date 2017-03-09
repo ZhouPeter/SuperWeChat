@@ -35,6 +35,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="OJ3-d3-YCu">
+                                <rect key="frame" x="76" y="121" width="190" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="新闻"/>
+                                    <segment title="咨询"/>
+                                </segments>
+                                <color key="tintColor" red="1" green="0.1529411765" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -42,11 +51,13 @@
                             <constraint firstItem="ViH-KC-vc1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="303" id="fuR-Er-PQE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="S6w-Nd-ihD"/>
+                    <navigationItem key="navigationItem" id="S6w-Nd-ihD">
+                        <nil key="title"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="860" y="136.28185907046478"/>
+            <point key="canvasLocation" x="980" y="118.29085457271366"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C9e-NK-pL6">

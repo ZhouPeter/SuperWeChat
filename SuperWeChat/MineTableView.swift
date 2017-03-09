@@ -22,7 +22,7 @@ class MineTableView: UITableView {
         //注册cell
         self.register(FirstTableViewCell.self, forCellReuseIdentifier: "cellFirst")
         self.register(OthersTableViewCell.self, forCellReuseIdentifier: "cellOthers")
-        
+        self.isScrollEnabled = false
         
 
     }

@@ -17,7 +17,6 @@ class MailListViewController: UIViewController{
     var contactTableView = MailListTableView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isTranslucent = false
         self.setNavigationTitle(mailListTitle)
         self.view.addSubview(contactTableView)
         contactTableView.snp.makeConstraints { (make) in
